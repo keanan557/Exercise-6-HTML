@@ -1,0 +1,77 @@
+/* style body */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style headings */
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+/* style form */
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* style labels */
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* submit button */
+.submit-btn{
+    color: white;
+    background: #2196F3;
+    padding: 12px 24px;
+}
+
+.submit-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* style table */
+.table-styles {
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    overflow-x: auto; 
+}
+
+.table-styles thead {
+    background-color: #333;
+    color: white;
+}
+
+.table-styles th,
+.table-styles td {
+    border: 1px solid #ddd; 
+    padding: 10px;
+    text-align: left; 
+}
+
+.table-styles tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.table-styles tbody tr:hover {
+    background-color: #f1f1f1; 
+}
